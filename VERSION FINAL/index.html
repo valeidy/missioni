@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="icon" href="images/logo.png">
+    <title>quattro missioni:Optica</title>
+</head>
+<body>
+    <div>
+        <canvas id="canvas"></canvas>
+    
+            <div class="header">
+                <img class="image-header" src="https://i0.wp.com/opticavision.com.bo/wp-content/uploads/2023/07/logoOV.png?w=1200&ssl=1" alt="Título de la página">
+            </div>
+<br>
+            <div class="menu">
+                <a class="inicio" href="index.html">Inicio</a>
+                <a class="links" href="vision.html">Visión</a>
+                <a class="links" href="oftamologia.html">Oftalmología</a>
+                <a class="links" href="laboratorio.html">Laboratorio</a>
+                
+            </div>
+
+
+
+            <div class="phrase-container">
+                <h2>SINCE 1972</h2>
+                <p>¡Salud, moda y belleza! Descubre una nueva forma de usar lentes
+                    marcando tendencia y, sobre todo, cuidando tu salud.
+                    </p>
+                    <a href="vision.html">
+                        <div class="button-phrase">
+                            <button href="menuLentes1.html">VISION STORE</button>
+                        </div>
+                    </a>
+                
+            </div>
+
+
+
+        <script src="javascript/script.js"></script>
+    </div>
+
+    <div class="categories">
+        <div class="image-categories">
+            <div class="image-button" >
+                <img src="images/chico.jpg" alt="Hombre">
+                <a href="vision.html">HOMBRES</a>
+            </div>
+            <div class="image-button" id="image-center">
+                <img src="images/chica.jpg" alt="Chica">
+                <a href="vision.html">MUJERES</a>
+            </div>
+            <div class="image-button">
+                <img src="images/niña.jpg" alt="Niño">
+                <a href="vision.html">NIÑOS</a>
+            </div>
+        </div>
+    </div>
+    <h3>Nuevas Colecciones</h3>
+    <h5>_________ HOMBRES _________</h5>    
+    <div class="slider-container">
+       <div class="slider-container">
+            <button onclick="prevSlide()">Anterior</button>
+
+            <div class="slider">
+                <div class="slide">
+                    <img src="images/lentes1.jpg" alt="Imagen 1" onclick="window.location.href='menuLentes1.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                </div>
+                <div class="slide">
+                    <img src="images/lentes2.jpg" alt="Imagen 2" onclick="window.location.href='menuLentes2.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                </div>
+                <div class="slide">
+                    <img src="images/lentes3.jpg" alt="Imagen 3" onclick="window.location.href='menuLentes3.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                </div>
+                <div class="slide">
+                    <img src="images/lentes4.jpg" alt="Imagen 4" onclick="window.location.href='menuLentes4.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                </div>
+                <div class="slide">
+                    <img src="images/lentes5.jpg" alt="Imagen 5" onclick="window.location.href='menuLentes5.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                </div>
+    
+            </div>
+            <button onclick="nextSlide()">Siguiente</button>
+
+        </div>
+
+    
+        
+    <script src="javascript/ImagesSliderHombres.js"></script>
+    </div>
+
+    
+    <h5 class="title-mujer">_________ MUJERES _________</h5>  
+    <div class="slider-container-mujeres">
+        <div class="slider-container-mujeres">
+             <button onclick="prevSlideMujer()">Anterior</button>
+ 
+             <div class="slider-mujer">
+                 <div class="slide-mujer">
+                     <img src="images/lentes6.jpg" alt="Imagen 1" onclick="window.location.href='menuLentes6.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                 </div>
+                 <div class="slide-mujer">
+                     <img src="images/lentes7.jpg" alt="Imagen 2" onclick="window.location.href='menuLentes7.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                 </div>
+                 <div class="slide-mujer">
+                     <img src="images/lentes8.jpg" alt="Imagen 3" onclick="window.location.href='menuLentes8.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                 </div>
+                 <div class="slide-mujer">
+                     <img src="images/lentes9.jpg" alt="Imagen 4" onclick="window.location.href='menuLentes9.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                 </div>
+                 <div class="slide-mujer">
+                     <img src="images/lentes10.jpg" alt="Imagen 5" onclick="window.location.href='menuLentes1.html';" onmouseover="zoomIn(this);" onmouseout="zoomOut(this);">
+                 </div>
+     
+             </div>
+             <button onclick="nextSlideMujer()">Siguiente</button>
+ 
+         </div>
+         
+    <script src="javascript/ImagesSliderMujeres.js"></script>
+    </div>
+
+     <main class="main">
+        <section class="contacto">
+            <div class="sucursales">
+                <h2 class="section-title">Sucursales</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">OFICINA PRINCIPAL: Calacoto C.17. Esq. Julio Patiño. Edificio Londres.</li>
+                    <li class="contact-item">Sucursal 2: Av.España, Cochabamba</li>
+                </ul>
+            </div>
+            <div class="telefonos">
+                <h2 class="section-title">Teléfonos</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Contáctanos al: +591 78790095 - +591 77576069</li>
+                    <li class="contact-item">Número de Referencia: 4 4223615</li>
+                </ul>
+            </div>
+            <div class="horarios">
+                <h2 class="section-title">Horarios de Atención</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">Lunes a Viernes: 9:00 AM – 20:00 PM</li>
+                    <li class="contact-item">Sábados: 9:30 AM – 13:00 PM</li>
+                </ul>
+            </div>
+            <div class="redes-sociales">
+                <h2 class="section-title">Redes Sociales</h2>
+                <ul class="social-media-list">
+                    <li class="social-media-item"><a href="https://www.facebook.com/opticavisionbolivia?locale=hi_IN">Facebook</a></li>
+                    <li class="social-media-item"><a href="https://www.tiktok.com/@opticavisionlp?_t=8hWJF5Jr1Bl&_r=1">TikTok</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

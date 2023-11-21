@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sucursales, .telefonos, .horarios, .redes-sociales {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: grey;
+    border: black solid 1px;
+    border-radius: 10px;
+    
+    color: white;
+}
+
+.section-title {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-list, .social-media-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item, .social-media-item {
+    margin: 5px 0;
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+}
+
+.conteiner-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 1200px;  
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+.left-side{
+   text-align: center;
+}
+.right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px 0;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.menu li {
+    margin-right: 20px;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu .links{
+color: black;
+}
+
+.menu .links:hover{
+color: orange; .container {
+    width: 100%; 
+    flex-direction: column;
+}
+
+.left-side,
+.right-side {
+    flex: 1;
+    padding: 20px;
+    margin: 10px 0; 
+}
+
+.right-side {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.conteiner-flex {
+    flex-direction: column; 
+}
+
+.section-image {
+    width: 80%; 
+    margin: 10px auto;
+}
+}
+
+.menu .oftalmologiatext{
+color: orange;
+}
+
+.title {
+    padding-top: 50px;
+    text-shadow: 4px 2px 5px gray;
+    text-align: center;
+    margin: 20px 0;
+}
+.phrase {
+    padding-bottom: 1cm;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+
+.section-image {
+    width: 10cm;
+    height: 3cm;
+    padding-right: 100px;
+}
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%;
+        flex-direction: column; 
+    }
+    
+    .left-side,
+    .right-side {
+        flex: 1;
+        padding: 20px;
+        margin: 10px 0; 
+    }
+    
+    .right-side {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+    }
+    
+    .conteiner-flex {
+        flex-direction: column; 
+    }
+    
+    .menu {
+        order: 3;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+    
+}
+@media (max-width: 480px) {
+
+    .container {
+        width: 100%;
+        flex-direction: column; 
+    }
+    
+    .left-side,
+    .right-side {
+        flex: 1;
+        padding: 20px;
+        margin: 10px 0; 
+    }
+    
+    .right-side {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+    }
+    
+    .conteiner-flex {
+        flex-direction: column; 
+    }
+    .section-image{
+        width: 200px;
+    }
+    .menu {
+        order: 3;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }}
